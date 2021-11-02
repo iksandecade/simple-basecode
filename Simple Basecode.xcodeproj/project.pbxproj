@@ -37,6 +37,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		69CB48882730F87300EE8148 /* Networks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networks;
+			sourceTree = "<group>";
+		};
+		69CB48892730F88200EE8148 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				69CB488E2730F8DE00EE8148 /* Main */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		69CB488A2730F89100EE8148 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		69CB488B2730F89C00EE8148 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		69CB488C2730F8AB00EE8148 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		69CB488D2730F8B500EE8148 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				69D488402730E59D00478F83 /* AppDelegate.swift */,
+				69D488422730E59D00478F83 /* SceneDelegate.swift */,
+				69D488492730E5A000478F83 /* Assets.xcassets */,
+				69D4884B2730E5A000478F83 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		69CB488E2730F8DE00EE8148 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				69D488442730E59D00478F83 /* ViewController.swift */,
+				69D488462730E59D00478F83 /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		69D488342730E59D00478F83 = {
 			isa = PBXGroup;
 			children = (
@@ -56,12 +112,12 @@
 		69D4883F2730E59D00478F83 /* Simple Basecode */ = {
 			isa = PBXGroup;
 			children = (
-				69D488402730E59D00478F83 /* AppDelegate.swift */,
-				69D488422730E59D00478F83 /* SceneDelegate.swift */,
-				69D488442730E59D00478F83 /* ViewController.swift */,
-				69D488462730E59D00478F83 /* Main.storyboard */,
-				69D488492730E5A000478F83 /* Assets.xcassets */,
-				69D4884B2730E5A000478F83 /* LaunchScreen.storyboard */,
+				69CB488B2730F89C00EE8148 /* Models */,
+				69CB48882730F87300EE8148 /* Networks */,
+				69CB488D2730F8B500EE8148 /* Resources */,
+				69CB488C2730F8AB00EE8148 /* Services */,
+				69CB488A2730F89100EE8148 /* ViewModels */,
+				69CB48892730F88200EE8148 /* Views */,
 				69D4884E2730E5A000478F83 /* Info.plist */,
 			);
 			path = "Simple Basecode";
